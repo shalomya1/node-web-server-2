@@ -47,7 +47,8 @@ app.get('/about', (req, res) => {
 
 app.get('/projects', (req, res) => {
   res.render('projects.hbs', {
-    pageTitle: 'Project page info'
+    pageTitle: 'Project page info',
+    projectBody : 'ProjectBody txt'
   });
 });
 
